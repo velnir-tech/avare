@@ -41,3 +41,9 @@ Just awareness.
 
 ```bash
 pip install avare
+
+## Roadmap
+v0.1 – Core awareness tracking
+v0.2 – Budget enforcement hooks
+v0.3 – Policy interface
+v1.0 – Runtime integrations
