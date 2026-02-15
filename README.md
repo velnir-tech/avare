@@ -57,7 +57,7 @@ with track(model="gpt-4"):
 ```
 
 ## Roadmap
-v0.1 – Core awareness tracking
-v0.2 – Budget enforcement hooks
-v0.3 – Policy interface
-v1.0 – Runtime integrations
+- **v0.1** – Core awareness tracking  
+- **v0.2** – Budget enforcement hooks  
+- **v0.3** – Policy interface  
+- **v1.0** – Runtime integrations
