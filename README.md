@@ -41,6 +41,20 @@ Just awareness.
 
 ```bash
 pip install avare
+```
+
+## Quick Example
+```
+from avare import track
+
+with track(model="gpt-4"):
+    response = client.chat.completions.create(
+        model="gpt-4",
+        messages=[
+            {"role": "user", "content": "Hello"}
+        ]
+    )
+```
 
 ## Roadmap
 v0.1 – Core awareness tracking
