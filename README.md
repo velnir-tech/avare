@@ -2,8 +2,8 @@
 
 Avare is an awareness layer for production AI systems.
 
-Modern AI systems operate without visibility into cost, latency, and behavior.
-Avare introduces awareness as a first-class primitive.
+Modern AI systems often operate without visibility into cost, latency, or behavior.
+Avare introduces awareness as a foundational primitive.
 
 ---
 
@@ -37,6 +37,19 @@ Just awareness.
 
 ---
 
+## Design Principles
+
+- Minimal surface area  
+- Framework-agnostic  
+- Async compatible  
+- Extensible by hooks  
+- Production-first  
+
+Observability should not be bolted on later.
+Awareness should exist from the start.
+
+---
+
 ## Installation
 
 ```bash
@@ -61,3 +74,8 @@ with track(model="gpt-4"):
 - **v0.2** – Budget enforcement hooks  
 - **v0.3** – Policy interface  
 - **v1.0** – Runtime integrations
+
+---
+
+## License
+MIT
